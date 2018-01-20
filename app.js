@@ -54,7 +54,10 @@ var proccessUpdate = function(update) {
             title: business.name,
             address: business.location.address1,
             thumb_url: business.image_url,
+            thumb_width: 64,
+            thumb_height: 64,
           }
+          console.log(inlineQueryResultVenue);
           results.push(inlineQueryResultVenue);
         });
         // make request telegram answerInlineQuery endpoint
