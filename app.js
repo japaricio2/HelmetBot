@@ -19,7 +19,7 @@ app.get('/h/', function(req, res) {
 });
 
 app.post('/h/search', function(req, res) {
-  setInterval(proccessUpdate(req.body), 300);
+  setInterval(proccessUpdate(req.body), 350);
 });
 
 app.listen(3002, function() {
@@ -52,7 +52,8 @@ var proccessUpdate = function(update) {
             latitude: business.coordinates.latitude,
             longitude: business.coordinates.longitude,
             title: business.name,
-            address: business.location.address1
+            address: business.location.address1,
+            thumb_url: business.image_url,
           }
           results.push(inlineQueryResultVenue);
         });
