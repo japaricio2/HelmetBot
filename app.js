@@ -19,7 +19,7 @@ app.get('/h/', function(req, res) {
 });
 
 app.post('/h/search', function(req, res) {
-  setInterval(proccessUpdate(req.body), 350);
+  setInterval(proccessUpdate(req.body), 800);
 });
 
 app.listen(3002, function() {
