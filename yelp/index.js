@@ -12,7 +12,7 @@ var yelp = {
       latitude: latitude,
       radius: 16090,
       sort_by: 'distance',
-      limit: 20
+      limit: 30
     })
     .then(function(response) {
       var businesses = response.jsonBody.businesses;
