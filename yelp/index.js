@@ -19,7 +19,9 @@ var yelp = {
       callback(businesses);
     })
     .catch(function(error) {
+      console.log('------------------------- Caught Error in Yelp Promise -------------------------')
       console.log(error);
+      console.log('------------------------- Caught Error in Yelp Promise -------------------------')
     });
   }
 
