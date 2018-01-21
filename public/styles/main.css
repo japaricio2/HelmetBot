@@ -1,5 +1,5 @@
 .hero-foot {
-  background-color:#1d81c3;
+  background-color: #1d81c3;
 }
 
 .content.has-text-centered {
@@ -15,6 +15,14 @@
   font-size: 3rem;
 }
 
+iframe {
+  margin-left: 10%;
+  margin-top: 36px;
+  width: 80%;
+  box-shadow: 0 10px 12px rgba(10, 10, 10, 0.22), 0 0 0 2px rgba(10, 10, 10, 0.08);
+  -webkit-box-shadow: 0 13px 12px rgba(10, 10, 10, 0.22), 0 0 0 2px rgba(10, 10, 10, 0.08);
+}
+
 .hero-body .container {
   max-width: 700px;
 }
@@ -26,7 +34,6 @@
 .box {
   box-shadow: 0 10px 12px rgba(10, 10, 10, 0.22), 0 0 0 2px rgba(10, 10, 10, 0.08);
   -webkit-box-shadow: 0 13px 12px rgba(10, 10, 10, 0.22), 0 0 0 2px rgba(10, 10, 10, 0.08);
-  
 }
 
 .subtitle {
@@ -37,16 +44,15 @@
   margin-bottom: 5px;
 }
 
-.button.is-success:hover, .button.is-success.is-hovered {
+.button.is-success:hover,
+.button.is-success.is-hovered {
   background-color: #a3dafe;
   border-color: transparent;
   color: #fff;
-
 }
 
 .button.is-success {
   background-color: #24a6fc;
   border-color: transparent;
   color: #fff;
-
 }
