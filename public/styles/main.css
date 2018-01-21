@@ -1,0 +1,51 @@
+.hero-foot {
+  background-color:#1d81c3;
+}
+
+.content.has-text-centered {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.hero-body{
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 3rem;
+}
+.hero-body .container {
+  max-width: 700px;
+}
+
+.box p {
+  border-radius: 9px;
+}
+
+.box {
+  box-shadow: 0 10px 12px rgba(10, 10, 10, 0.22), 0 0 0 2px rgba(10, 10, 10, 0.08);
+  -webkit-box-shadow: 0 13px 12px rgba(10, 10, 10, 0.22), 0 0 0 2px rgba(10, 10, 10, 0.08);
+  
+}
+
+.subtitle {
+  font-size: 1.5rem;
+}
+
+.content.has-text-centered p {
+  margin-bottom: 5px;
+}
+
+.button.is-success:hover, .button.is-success.is-hovered {
+  background-color: #a3dafe;
+  border-color: transparent;
+  color: #fff;
+
+}
+
+.button.is-success {
+  background-color: #24a6fc;
+  border-color: transparent;
+  color: #fff;
+
+}
